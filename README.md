@@ -8,48 +8,55 @@ Wake up at the entrance of a mysterious cave and make choices that determine you
 
 💎 Features 💎
 
-Multiple story paths and unique endings
+-> Multiple story paths and unique endings
 
-Interactive number guessing mini-game
+-> Interactive number guessing mini-game
 
-Colorful console output with cute emojis
+-> Colorful console output with cute emojis
 
-Choice-based gameplay for a true RPG feel
+-> Choice-based gameplay for a true RPG feel
 
-Random elements for endless replayability!
+-> Random elements for endless replayability!
 
 ☁️ Requirements ☁️
-.NET 8.0 SDK or later
 
-Windows, macOS, or Linux
+-> .NET 8.0 SDK or later
+
+-> Windows, macOS, or Linux
 
 ✨ How to Run ✨
-Clone this repository
 
-Navigate to the project directory
+-> Clone this repository
 
-Run the following command:
+-> Navigate to the project directory
+
+-> Run the following command:
 
 Bash
 dotnet run
+
 🎮 Gameplay 🎮
+
 Make choices by entering numbers (1, 2, or 3) when prompted. Your decisions will lead you through different paths in the cave—but don't worry, the state machine is designed to handle extra spaces if you're a bit nervous! (づ ◕‿◕ )づ 💖
 
 🌟 Possible Outcomes 🌟
-Find glowing crystals and magical items
 
-Solve ancient riddles to progress
+-> Find glowing crystals and magical items
 
-Dodge hidden traps in the dark
+-> Solve ancient riddles to progress
 
-Discover secret chambers
+-> Dodge hidden traps in the dark
 
-Or play it safe and escape unharmed!
+-> Discover secret chambers
+
+-> Or play it safe and escape unharmed!
 
 🛠️ Project Structure 🛠️
+
 Program.cs — Main game logic and story implementation
 
 The-Mysterious-Cave-Adventure.csproj — Project configuration file
 
 📜 License 📜
+
 Feel free to use and modify this game for learning purposes. Sharing is caring! (˶ᵔ ᵕ ᵔ˶) 💝
