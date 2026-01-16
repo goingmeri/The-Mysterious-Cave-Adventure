@@ -1,5 +1,5 @@
 ₊˚⊹ 🔦 The Mysterious Cave Adventure ⊹˚₊ ꒰ ˶ᵔ ᵕ ᵔ˶ ꒱ 💖
-A text-based adventure game built with C# and .NET 8.0 that combines magical storytelling with a mysterious number-guessing challenge! 🦇💎✨
+A text-based adventure game built with C# and .NET 8.0 that combines magical storytelling with a mysterious number-guessing challenge! 
 
 🕯️ About 🕯️
 Wake up at the entrance of a mysterious cave and make choices that determine your fate! (๑ > ᴗ < ๑) Will you enter bravely, investigate first, or run away? Each decision leads to different outcomes, treasures, and hidden secrets lurking in the shadows. 
@@ -44,9 +44,9 @@ Discover secret chambers
 Or play it safe and escape unharmed! 
 
 🛠️ Project Structure 🛠️
-Program.cs — Main game logic and story implementation 📝💕
+Program.cs — Main game logic and story implementation 
 
-The-Mysterious-Cave-Adventure.csproj — Project configuration file ⚙️⭐
+The-Mysterious-Cave-Adventure.csproj — Project configuration file 
 
 📜 License 📜
 Feel free to use and modify this game for learning purposes. Sharing is caring! (˶ᵔ ᵕ ᵔ˶) 💝
