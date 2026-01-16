@@ -10,6 +10,7 @@ class Program
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("╔════════════════════════════════════════╗");
         Console.WriteLine("║   THE MYSTERIOUS CAVE ADVENTURE        ║");
+        Console.WriteLine("║   Version 2.0 - TEMPORARY CHANGE       ║");
         Console.WriteLine("╔════════════════════════════════════════╗");
         Console.ResetColor();
         Console.WriteLine();
