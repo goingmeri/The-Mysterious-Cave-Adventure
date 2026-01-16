@@ -1,10 +1,13 @@
 ₊˚⊹ 🔦 The Mysterious Cave Adventure ⊹˚₊ ꒰ ˶ᵔ ᵕ ᵔ˶ ꒱ 💖
+
 A text-based adventure game built with C# and .NET 8.0 that combines magical storytelling with a mysterious number-guessing challenge!
 
 🕯️ About 🕯️
+
 Wake up at the entrance of a mysterious cave and make choices that determine your fate! (๑ > ᴗ < ๑) Will you enter bravely, investigate first, or run away? Each decision leads to different outcomes, treasures, and hidden secrets lurking in the shadows.
 
 💎 Features 💎
+
 Multiple story paths and unique endings
 
 Interactive number guessing mini-game
