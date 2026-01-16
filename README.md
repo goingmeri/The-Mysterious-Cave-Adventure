@@ -1,7 +1,3 @@
-Here is your updated README with some cute, heart-filled personality! (づ｡◕‿‿◕｡)づ💖
-
----
-
 # # ₊˚⊹ The Mysterious Cave Adventure ⊹˚₊ ꒰ᐡ⸝⸝⸝⸝ᐡ꒱
 
 A cozy yet thrilling text-based adventure game built with **C# and .NET 8.0** that combines magical storytelling with a number guessing challenge! ✨🧸
