@@ -3,6 +3,8 @@ using System;
 
 class Program
 {
+    static int difficultyLevel = 3; // Default: 3 attempts
+
     static void Main(string[] args)
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
@@ -12,7 +14,30 @@ class Program
         Console.ResetColor();
         Console.WriteLine();
 
+        SelectDifficulty();
         StartAdventure();
+    }
+
+    static void SelectDifficulty()
+    {
+        Console.WriteLine("Select your difficulty level:");
+        Console.WriteLine("1. Easy (5 attempts for puzzles)");
+        Console.WriteLine("2. Normal (3 attempts for puzzles)");
+        Console.WriteLine("3. Hard (2 attempts for puzzles)");
+        
+        string choice = GetPlayerChoice(3);
+        
+        difficultyLevel = choice switch
+        {
+            "1" => 5,
+            "2" => 3,
+            "3" => 2,
+            _ => 3
+        };
+        
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"\n✓ Difficulty set! You'll have {difficultyLevel} attempts for challenges.\n");
+        Console.ResetColor();
     }
 
     static void StartAdventure()
@@ -162,7 +187,7 @@ class Program
         
         Random random = new Random();
         int secretNumber = random.Next(1, 11);
-        int attempts = 3;
+        int attempts = difficultyLevel; // Use difficulty setting
         
         Console.WriteLine("I'm thinking of a number between 1 and 10.");
         Console.WriteLine($"You have {attempts} attempts to guess it!\n");
